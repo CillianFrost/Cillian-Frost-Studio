@@ -1,5 +1,4 @@
 <img src="http://s019.radikal.ru/i602/1707/60/a9e68ba8e2cb.png" align="right">
-
 # Cillian Frost Studio
 
 ---
