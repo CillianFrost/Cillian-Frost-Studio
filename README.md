@@ -23,7 +23,7 @@
 2. Фреймворки: [Bourbon](https://github.com/thoughtbot/bourbon), [Jquery](https://github.com/jquery/jquery).
 3. Сборщик проектов: [Gulp](https://github.com/gulpjs/gulp).
 
-
+---
 
 ***Cillian Frost Studio. All Rights Reserved.***
 
