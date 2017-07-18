@@ -1,7 +1,5 @@
 # Cillian Frost Studio
 
-<img src="http://s019.radikal.ru/i602/1707/60/a9e68ba8e2cb.png" align="right">
-
 ---
 Маленькая фрилансерская веб-студия.
 
@@ -16,6 +14,7 @@
 2. [Games Shop](https://github.com/CillianFrost/GamazShop.git) 
 3. [Тестовый сайт нашей студии](http://clstudio.d98276zy.beget.tech/)
 
+<img src="http://s019.radikal.ru/i602/1707/60/a9e68ba8e2cb.png" align="right">
 
 ### В разработке мы используем:
 
