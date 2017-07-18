@@ -9,7 +9,7 @@
 Чтобы сделать заказ, напишите нам на почту: CillianFrost@yandex.ru
 
 ---
-### Наше портфолио вы можете посмотреть по этим ссылкам: 
+### Наше портфолио вы можете скачать или посмотреть по этим ссылкам: 
 
 1. [Splat](https://github.com/CillianFrost/site-portfolio.git) 
 2. [Games Shop](https://github.com/CillianFrost/GamazShop.git) 
