@@ -1,0 +1,22 @@
+doctype html
+html(lang="ru")
+  head
+    include head.pug
+  body
+    .header_wrapper
+      a(href="index.html").header_title Студия Киллиана Фроста
+    .main_content_wrapper
+      div(data-tab-wrapper='')
+        ul.tab-list(data-tablist='')
+          include navigation.pug
+        section#tab-1.tab-panel(data-tabpanel='')
+          include about.pug
+        section#tab-2.tab-panel(data-tabpanel='')
+          include prices.pug
+        section#tab-3.tab-panel(data-tabpanel='')
+          include make_order.pug
+        section#tab-4.tab-panel(data-tabpanel='')
+          include projects.pug
+    include footer.pug
+
+      

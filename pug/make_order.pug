@@ -1,0 +1,19 @@
+.make_order
+  .make_order_messengers
+    .make_order_messengers_yandex
+    .make_order_messengers_telegram
+    .make_order_messengers_skype
+  .make_order_text
+    p.about_description_title Вы можете связаться с нами следующими способами:
+    p.about_description_text 
+      | По электронной почте. Пишите на этот адрес: 
+      span(data-clipboard-target="#mail" data-title="нажмите на текст, чтобы добавить мойы адрес почты в буфер обмена").make_order_mail.copy#mail CillianFrost@yandex.ru
+      | .
+    p.about_description_text 
+      | В телеграме. Если вам нужно о что-то обсудить в live-режиме, то можете найти меня по этому имени: 
+      span(data-clipboard-target="#telegram" data-title="нажмите на текст, чтобы добавить мой никнейм в буфер обмена").make_order_telegram.copy#telegram Cillian Frost
+      | .
+    p.about_description_text
+      | По скайпу. Так же вы можете написать моему коллеге, если вдруг я буду не на связи. его имя в скайпе: 
+      span(data-clipboard-target="#skype" data-title="нажмите на текст, чтобы добавить его имя в скайпе в буфер обмена").make_order_skype.copy#skype RammGary
+      | .

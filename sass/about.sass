@@ -1,0 +1,101 @@
+@import '_variables.sass'
+
+//MIXINS
+
+=photo($photo)
+  background-image: $photo
+  margin: 0 auto
+  filter: drop-shadow(0 0 2px black)
+  +krujok
+  +ab
+  +l_edge
+  +size(150px)
+
+//ABOUT
+
+.about
+  width: 100%
+  height: 800px
+  cursor: default
+  +fl
+
+//LEFT SIDE
+
+.developers
+  width: 30%
+  height: 600px
+  padding-top: 50px
+  +cac
+  
+.coder
+  width: 170px
+  height: 220px
+  +c
+
+.photo_container
+  transform-style: preserve-3d
+  transition: transform .3s
+  margin: 0 auto
+  +size(150px)
+  +rt
+  +krujok
+  &:hover
+    transform: rotateY(180deg)
+
+.cillian
+  +photo(url(images/cillian.jpg))
+  
+.cillian_back
+  +photo(url(images/cillian_back.jpg))
+  transform: rotateY(180deg)
+  backface-visibility: hidden
+
+.rammgary
+  +photo(url(images/rammgary.png))  
+
+.rammgary_back
+  +photo(url(images/rammgary_back.jpg))
+  transform: rotateY(180deg)
+  backface-visibility: hidden  
+
+.coder_name
+  width: 170px
+  height: 40px  
+  color: $text-color
+  text-align: center
+  font-size: 0.9em
+  padding-top: 10px
+  span
+    font-weight: bold
+    font-size: 1.1em
+
+// RIGHT SIDE
+
+.about_description
+  width: 70%  
+  padding: 30px 30px 0 0
+
+.about_description_title
+  font-size: $base-font-size + 8px
+  color: shade($text-color, 10%)
+
+.about_description_text
+  font-size: $base-font-size
+  color: $text-color
+
+.about_description_italic
+  font-style: italic
+  font-weight: bold
+
+// links
+
+.about_description_text a 
+  color: $action-color
+  text-decoration-skip: ink
+  text-decoration: underline
+  transition: color $base-duration $base-timing
+  &:hover 
+    color: shade($action-color, 25%)
+
+.about_description_text_important
+  color: shade($text-color, 5%)

@@ -1,0 +1,31 @@
+@import '_variables.sass'
+
+.main_content_wrapper
+  min-width: 1000px
+  max-width: 1000px
+  height: 800px
+  margin: 0 auto
+  border-left: 1px shade($back-color, 10%) solid
+  border-right: 1px shade($back-color, 10%) solid
+
+.tab-list
+  display: flex
+  justify-content: space-around
+  width: 100%
+  height: 25px
+  font-size: 24px
+  margin-bottom: 10px
+
+.tab-link
+  display: inline-block
+  color: $text-color
+  &:hover
+    color: shade($text-color, 10%)
+  &[aria-selected="true"]
+    color: shade($text-color, 20%)
+
+.tab-link a
+  width: 25%
+
+.tab-panel[aria-hidden="true"]
+  display: none
