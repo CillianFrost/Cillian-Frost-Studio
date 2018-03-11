@@ -1,0 +1,41 @@
+1. Установить Node.js
+
+2. Установить npm (глобально)
+
+3. Создать папку с проектом
+
+4. Установить Gulp (глобально)           npm install --global gulp
+
+5. Перейти в директиву проекта
+
+6. Ввести                                npm init
+
+8. Создать файл gulpfile.js
+
+9. Ввести                                                                                          npm install gulp gulp-sass gulp-uglify gulp-clean-css browser-sync gulp-autoprefixer gulp-pug gulp-coffeescript gulp-plumber pug node-sass coffeescript node-normalize-scss --save-dev 
+
+N. Ввести                                npm dedupe
+
+N. Ввести                                npm shrinkwrap
+
+10. Установить ruby
+
+11. Ввести                               gem install bourbon --pre
+
+12. Выбрать директорию sass и ввести     bourbon install
+
+13. Ввести                               gem install bitters                                 
+
+14. Выбрать директорию sass и ввести     bitters install
+
+13. Ввести                               gem install neat                               
+
+14. Выбрать директорию sass и ввести     neat install
+
+15. Настроить gulpfile.js
+
+
+чтобы потом удалить node_modules ввести  npm install rimraf -g
+
+
+и ввести                                 rimraf node_modules
